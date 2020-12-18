@@ -9,7 +9,14 @@ const constNum2 = constNum << 2;
 
 dynamic k = "string";
 
+
 main() {
+
+  11
+    ..toString()
+    ..abs()
+    ..floor();
+
   num num2 = 1;
 
   double z = 1;
