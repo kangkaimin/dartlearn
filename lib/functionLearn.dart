@@ -12,6 +12,7 @@ isNuoble() => "";
 
 void main() {
   nameSelectFun(blod: false);
+  nameSelectFun(blod: false);
   nameSelectRequiredFun(blod: false);
   positionSelectFun("kkm", "haha");
 
@@ -39,9 +40,7 @@ void main() {
     print("匿名函数 ：$element");
   });
 
-
   //  闭包 即一个函数对象，即使函数对象的调用在它原始作用域之外， 依然能够访问在它词法作用域内的变量。
-  
 }
 
 /**
@@ -75,4 +74,10 @@ void defaultParamFun({bool blod = false}) {
 
 void printElement(int element) {
   print("printElement --- $element");
+
+  fun11(name1: "", name2: "");
+}
+
+void fun11({String name1 = "", String name2}) {
+  name2;
 }
